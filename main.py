@@ -1,5 +1,4 @@
-# import always go at the top
-from PIL import Image
+from emoji import emojize
 
-myImage = Image.open("mini.png")
-myImage.show()
+moj = emojize("Packages are :fire:")
+print(moj)
